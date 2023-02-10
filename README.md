@@ -8,6 +8,9 @@ To use QuotR, you need to install the relevant packages. Use the requirements.tx
 ## Adding PDF Files
 Once you have installed the required packages, add your relevant readings/lecture notes/journals/articles/textbooks to the Data folder. The files must be in PDF format.
 
+## Insert your OPENAI API Key
+You must insert your OPENAI API key in both the ingest.py and similarity_search.py files. In the documents, I have labelled the relevant places where you must insert it.
+
 ## Running the Application
 Run the ingest.py file to process the PDF files you added to the Data folder.
 After the ingest.py file has finished running, run the similarity_search.py file to start finding your quotes.
