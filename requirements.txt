@@ -1,0 +1,9 @@
+pathlib
+langchain
+faiss
+PyPDF2
+tqdm
+glob
+os
+gradio
+openai
